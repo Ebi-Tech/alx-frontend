@@ -90,25 +90,25 @@ a {
 }
 
 /* Set foreground color of all anchor elements to text-color */
-a[href] {
+a:link {
     color: var(--text-color);
     text-decoration: none;
 }
 
 /* Set foreground color of visited anchor elements to text-color and italicize the text */
-a[href]:visited {
+a:visited {
     color: var(--text-color);
     font-style: italic;
 }
 
 /* Set foreground color of anchor elements on hover to color-primary and underline the text */
-a[href]:hover {
+a:hover {
     color: var(--color-primary);
     text-decoration: underline;
 }
 
 /* Set foreground color of active anchor elements to text-color and set background color to color-light-grey */
-a[href]:active {
+a:active {
     color: var(--text-color);
     background-color: var(--color-light-grey);
 }
