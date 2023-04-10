@@ -500,24 +500,29 @@ a:active {
 float: right;
 }
 
-/*To set the margin of the nav class to 0 on all sides*/
-nav {
-margin: 0;
-}
-
-/*To set the padding of the nav class to 0 on all sides*/
-nav {
-padding: 0;
-}
-
-/*To remove any styling from the list items within the nav class*/
-nav li {
-list-style: none;
+/*To set the margin and padding of the nav class to 0 on all sides,
+set list-styles to none and text-align to center*/
+.nav {
 margin: 0;
 padding: 0;
+    list-style: none;
+    text-align: center;
 }
 
-/*To center align the text within the nav class*/
-nav {
-text-align: center;
+.nav .nav-item {
+    font-family: var(--nav-item-font-family);
+    font-weight: var(--nav-item-font-weight);
+    font-size: var(--nav-item-font-size);
+    letter-spacing: var(--nav-item-letter-spacing);
+    display: var(--nav-item-display);
+    margin: var(--nav-item-margin);
+}
+
+.nav .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
 }
