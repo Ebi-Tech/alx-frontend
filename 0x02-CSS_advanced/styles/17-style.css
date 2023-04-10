@@ -414,7 +414,7 @@ section :is(h1, h2, h3, h4, h5, h6) {
 }
 
 /* Set foreground color of all anchor elements to text-color */
-a {
+a[href] {
     background-color: var(--text-color);
     text-decoration: none;
 }
