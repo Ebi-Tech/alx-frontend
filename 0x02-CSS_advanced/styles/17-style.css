@@ -437,8 +437,6 @@ padding: var(--section-padding);
 .section-header {
   padding: var(--section-header-padding);
   text-align: var(--section-header-align);
-  font-family: var(--font-family-title);
-  font-weight: var(--font-weight-bold);
 }
 
 .section-body {
