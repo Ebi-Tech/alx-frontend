@@ -509,6 +509,10 @@ padding: 0;
     text-align: center;
 }
 
+/*Sets the font family, font-weight, font-size for the navigation items
+Sets the letter spacing for the navigation items
+Sets the display property for the navigation items
+Sets the margin for the navigation items*/
 .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
@@ -518,11 +522,14 @@ padding: 0;
     margin: var(--nav-item-margin);
 }
 
+/*Sets the display property to block for the navigation links
+Sets the padding for the navigation links*/
 .nav .nav-link {
     display: block;
     padding: 0.5rem 1rem;
 }
 
+/*Sets the color property for the navigation links on hover*/
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
